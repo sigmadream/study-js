@@ -2,6 +2,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/vscode,node,yarn
 # Edit at https://www.toptal.com/developers/gitignore?templates=vscode,node,yarn
 
+### macOS ###
+.DS_Store
+
 ### Node ###
 # Logs
 logs
