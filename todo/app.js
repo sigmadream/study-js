@@ -96,6 +96,7 @@ function saveLocalTodos(todo) {
   todos.push(todo);
   localStorage.setItem('todos', JSON.stringify(todos));
 }
+
 function removeLocalTodos(todo) {
   let todos;
   if (localStorage.getItem('todos') === null) {
